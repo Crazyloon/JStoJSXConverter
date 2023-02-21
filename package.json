@@ -1,0 +1,18 @@
+{
+  "name": "jstojsxconverter",
+  "version": "1.0.0",
+  "description": "converts react.createElement code back to jsx",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d conv --out-file-extension .jsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-createelement-to-jsx": "^1.1.0"
+  }
+}
